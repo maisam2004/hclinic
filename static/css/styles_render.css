@@ -73,6 +73,8 @@
   }
   
   /* nav parts */
+
+
   .top_nav_book .row .p1 span a:hover {
     border-bottom: 1px white;
   }
@@ -247,7 +249,7 @@ nav{
 }
 
 .homepage nav.sticky {
-  background-color: rgba(2, 76, 76, 0.968); /* Example: Semi-transparent white background */
+  background-color: rgb(52, 52, 52); /* Example: Semi-transparent white background */
 }
 .homepage nav.sticky ul{
   border-bottom: unset !important;
@@ -582,7 +584,15 @@ z-index: 10;
     padding-left: 0.1em !important;
     padding-right: 0.1em !important;
     line-height: 1.8em;
-    box-shadow: 2px 4px 4px 1px rgba(87, 86, 86, 0.25);
+    box-shadow: 4px 2px 0px  #b6b1b1;
+    border: 3px solid #5f5f5f;
+    transition: box-shadow 0.3s ease;
+  }
+  .denteistry_services .card:hover {
+    
+    
+    border: 3px solid #b6b1b1;
+    box-shadow: 2px 4px 4px 1px rgba(87, 86, 86, 0);
   }
   
   .denteistry_services .card-title {
@@ -609,7 +619,7 @@ z-index: 10;
     font-weight: 700;
     text-shadow: 1px 1px 5px black;
     color: white;
-
+    padding: 0.1em;
     font-family: "Wise Sans", "Inter", sans-serif;
     font-size: 3.2em;
   }
@@ -1708,6 +1718,7 @@ z-index: 10;
       padding: 0.2em;
       border-radius: 3em !important;
       background-color: rgb(30, 88, 100);
+      background-color: rgb(51 62 65);
       color: azure;
       padding-top: 0.6em;
       padding-bottom: 0.6em;
@@ -2236,7 +2247,7 @@ z-index: 10;
   height: 100%;
   background: linear-gradient(135deg, #1a3b16c7, rgba(22, 83, 55, 0.294)); 
   /*background: linear-gradient(120deg, #22637b95, rgba(65, 163, 117, 0.173));*/
-  background: rgba(25, 80, 77, 0.753);
+  
   background: rgba(2, 8, 8, 0.753);
   z-index: -1;
   clip-path: polygon(0 14.6%, 100% 50%, 0% 90%); /* Angled triangle clip path */
@@ -2248,6 +2259,13 @@ z-index: 10;
       background-color: rgba(255, 255, 255, 0.482);
       color: black !important;
     }
+    .top_nav_book {
+
+              position: sticky;
+              top: 0;
+              background-color: #434343;
+              z-index: 100;
+            }
   
     main {
       height: 38em;
