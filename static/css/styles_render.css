@@ -231,7 +231,7 @@ background-image: url("/static/office_dentist.webp");
 }
 nav{
   border-image-source: linear-gradient(#19504d, rgba(8, 30, 20, 0.688));
-
+  border-image-source:linear-gradient(#090909, rgba(13, 19, 16, 0.688));
       border-image-slice: fill 1 ;
 }
 .homepage nav{
@@ -332,7 +332,7 @@ nav{
   .general a.btn,
   .restoractive a.btn {
     /*differnet pages same button */
-    background-color: rgb(18, 88, 113);
+    /* background-color: rgb(18, 88, 113); */
     color: white;
     padding: 10px 20px;
     font-weight: 700;
@@ -340,7 +340,7 @@ nav{
   .cosmetic a.btn:hover,
   .general a.btn:hover,
   .restoractive a.btn:hover {
-    background-color: #c8ccd0; /* Example color - adjust as needed */
+    background-color: #c8ccd0; /* Example color */
     color: rgb(18, 88, 113);
     font-weight: 600;
     transition: all 0.5s;
@@ -584,9 +584,10 @@ z-index: 10;
     padding-left: 0.1em !important;
     padding-right: 0.1em !important;
     line-height: 1.8em;
-    box-shadow: 4px 2px 0px  #b6b1b1;
+    box-shadow: -4px 4px 0px  #b6b1b1;
+    
     border: 3px solid #5f5f5f;
-    transition: box-shadow 0.3s ease;
+    /* transition: box-shadow 0.3s ease; */
   }
   .denteistry_services .card:hover {
     
@@ -651,7 +652,7 @@ z-index: 10;
   }
   
   .why_choose_us li {
-    color: #444444;
+    color: #2f2f2f;
     padding-left: 16px;
     margin-top: 24px;
     position: relative;
@@ -874,6 +875,13 @@ z-index: 10;
   .login .row {
     justify-content: center;
   }
+  .login .footer{
+    margin-top: 3em ;
+  }
+  
+  .logout .footer {
+    margin-top: 3em !important;
+  }
   .logout .row {
     justify-content: center;
   }
@@ -887,6 +895,9 @@ z-index: 10;
   
   .signup .container {
     width: 96%;
+  }
+  .signup .footer{
+    margin-top: 3em;
   }
   
   .signup .row,
@@ -2525,7 +2536,8 @@ z-index: 10;
     .hstack a.btn:hover {
       /* top nav booking  */
       background-color: rgba(255, 255, 255, 0.482);
-      color: black !important;
+      color: rgb(15, 12, 12) !important;
+      border: 1px solid red !important;
     }
   
     .about h2 {
